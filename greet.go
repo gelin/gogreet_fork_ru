@@ -2,7 +2,7 @@ package greet
 
 import (
 	"fmt"
-	"github.com/gelin/gogreet/format"
+	"github.com/gelin/gogreet_fork_ru/format"
 )
 
 func GreetingFor(name string) string {
