@@ -1,10 +1,14 @@
 package greet
 
-import "testing"
+import (
+	"fmt"
+	"testing"
+)
 
 func TestGreetingFor(t *testing.T) {
-	result := GreetingFor("World")
-	if result != "Hello, World!" {
+	result := GreetingFor("Мир")
+	fmt.Println(result)
+	if result != "Здравствуй, Мир!" {
 		t.Fatal(result)
 	}
 }
